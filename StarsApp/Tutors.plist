@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Computer Science</key>
+	<array>
+		<array>
+			<string>Ashley Narcisse</string>
+			<dict>
+				<key>4:00 PM - 5:00 PM</key>
+				<string>available</string>
+				<key>5:00 PM - 6:00 PM</key>
+				<string>available</string>
+				<key>6:00 PM - 7:00 PM</key>
+				<string>available</string>
+			</dict>
+		</array>
+		<array>
+			<string>Rob Gomez</string>
+			<dict>
+				<key>4:00 PM - 5:00 PM</key>
+				<string>available</string>
+			</dict>
+		</array>
+	</array>
+	<key>Other</key>
+	<array>
+		<array>
+			<string>John Doe</string>
+			<dict>
+				<key>6:00 PM - 7:00 PM</key>
+				<string>available</string>
+				<key>7:00 PM - 8:00 PM</key>
+				<string>available</string>
+				<key>8:00 PM - 9:00 PM</key>
+				<string>available</string>
+			</dict>
+		</array>
+	</array>
+	<key>Information Technology</key>
+	<array>
+		<array>
+			<string>Santiago Gil</string>
+			<dict>
+				<key>7:00 PM - 8:00 PM</key>
+				<string>available</string>
+				<key>8:00 PM - 9:00 PM</key>
+				<string>available</string>
+				<key>9:00 PM - 10:00 PM</key>
+				<string>available</string>
+			</dict>
+		</array>
+	</array>
+	<key>Computer Engineering</key>
+	<array>
+		<array>
+			<string>Steven Luis</string>
+			<dict>
+				<key>3:00 PM - 4:00 PM</key>
+				<string>available</string>
+				<key>4:00 PM - 5:00 PM</key>
+				<string>available</string>
+			</dict>
+		</array>
+	</array>
+</dict>
+</plist>

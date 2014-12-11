@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Information Technology</key>
+	<array>
+		<string>CTS 4408</string>
+		<string>COP 3804</string>
+		<string>COP 4813</string>
+		<string>COP 4005</string>
+	</array>
+	<key>Computer Science</key>
+	<array>
+		<string>COP 4504</string>
+		<string>COP 4226</string>
+		<string>COP 4534</string>
+		<string>COP 2210</string>
+		<string>COP 3337</string>
+		<string>COP 4338</string>
+		<string>CAP 4770</string>
+		<string>COP 3530</string>
+		<string>COP 4710</string>
+		<string>COP 4722</string>
+		<string>CDA 3103</string>
+		<string>COP 4520</string>
+		<string>COT 3420</string>
+		<string>CNT 4713</string>
+		<string>COP 4610</string>
+		<string>COP 4655</string>
+		<string>CIS 4911</string>
+		<string>CEN 4010</string>
+		<string>CEN 4021</string>
+		<string>CEN 4072</string>
+		<string>CDA 4101</string>
+	</array>
+	<key>Computer Engineering</key>
+	<array>
+		<string>EEL 4920</string>
+		<string>CGS 4285</string>
+		<string>EEL 2880</string>
+		<string>EEL 3111</string>
+		<string>EEL 3112</string>
+		<string>EEL 3514</string>
+		<string>CGS 2518</string>
+		<string>EEL 4709</string>
+		<string>CGS 3767</string>
+		<string>CGS 4403</string>
+		<string>EEL 3657</string>
+		<string>EEL 4611</string>
+		<string>EEL 4213</string>
+		<string>EEL 4140</string>
+		<string>CGS 2100</string>
+		<string>CGS 2060</string>
+		<string>CGS 1920</string>
+		<string>EEL 4510</string>
+		<string>EEL 3712</string>
+		<string>EEL 4202</string>
+		<string>EEL 4746</string>
+		<string>EEL 4214</string>
+		<string>EEL 4215</string>
+		<string>EEL 4213</string>
+		<string>CGS 3092</string>
+		<string>EEL 4921</string>
+		<string>EEL 4611</string>
+		<string>CGS 3095</string>
+		<string>CGS 4854</string>
+	</array>
+	<key>Other</key>
+	<array>
+		<string>COM 3110</string>
+		<string>MAC 2311</string>
+		<string>MAC 2312</string>
+		<string>COP 4814</string>
+		<string>CNT 4513</string>
+		<string>MAP 2302</string>
+		<string>MAD 2104</string>
+		<string>EEE 3303</string>
+		<string>EEE 4304</string>
+		<string>CDA 3103</string>
+		<string>CHM 1045</string>
+		<string>PHY 2049</string>
+		<string>MAD 3305</string>
+		<string>CEN 3721</string>
+		<string>COP 4703</string>
+		<string>EEE 4314</string>
+		<string>STA 3033</string>
+		<string>MAD 3512</string>
+		<string>COP 3353</string>
+		<string>MAD 4203</string>
+		<string>EEE 4343</string>
+		<string>EEE 3396</string>
+		<string>PSY 2012</string>
+		<string>CIS 4431</string>
+		<string>MAD 1100</string>
+		<string>MHF 4302</string>
+		<string>CDA 3003</string>
+		<string>COP 4655</string>
+		<string>MAC 2313</string>
+		<string>CNT 4504</string>
+		<string>MAD 3401</string>
+		<string>PHY 2048</string>
+		<string>PHY 2049</string>
+		<string>MAC 1140</string>
+		<string>MAC 1147</string>
+		<string>ENC 3213</string>
+		<string>ENC 3249</string>
+		<string>COP 2250</string>
+		<string>CTS 4348</string>
+	</array>
+</dict>
+</plist>

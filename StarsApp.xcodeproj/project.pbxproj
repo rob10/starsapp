@@ -1,0 +1,558 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF16E86F1A367E3700594A10 /* Tutors.plist in Resources */ = {isa = PBXBuildFile; fileRef = BF16E86E1A367E3700594A10 /* Tutors.plist */; };
+		BF16E8711A367E4800594A10 /* Courses.plist in Resources */ = {isa = PBXBuildFile; fileRef = BF16E8701A367E4800594A10 /* Courses.plist */; };
+		BF2008521A33FC1C007A2034 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF2008511A33FC1C007A2034 /* Foundation.framework */; };
+		BF2008541A33FC1C007A2034 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF2008531A33FC1C007A2034 /* CoreGraphics.framework */; };
+		BF2008561A33FC1C007A2034 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF2008551A33FC1C007A2034 /* UIKit.framework */; };
+		BF2008581A33FC1C007A2034 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF2008571A33FC1C007A2034 /* CoreData.framework */; };
+		BF20085E1A33FC1C007A2034 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BF20085C1A33FC1C007A2034 /* InfoPlist.strings */; };
+		BF2008601A33FC1C007A2034 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF20085F1A33FC1C007A2034 /* main.m */; };
+		BF2008641A33FC1C007A2034 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2008631A33FC1C007A2034 /* AppDelegate.m */; };
+		BF20086A1A33FC1C007A2034 /* StarsApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BF2008681A33FC1C007A2034 /* StarsApp.xcdatamodeld */; };
+		BF2008721A33FC1C007A2034 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF2008711A33FC1C007A2034 /* Images.xcassets */; };
+		BF2008791A33FC1D007A2034 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF2008781A33FC1D007A2034 /* XCTest.framework */; };
+		BF20087A1A33FC1D007A2034 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF2008511A33FC1C007A2034 /* Foundation.framework */; };
+		BF20087B1A33FC1D007A2034 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF2008551A33FC1C007A2034 /* UIKit.framework */; };
+		BF20087C1A33FC1D007A2034 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF2008571A33FC1C007A2034 /* CoreData.framework */; };
+		BF2008841A33FC1D007A2034 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BF2008821A33FC1D007A2034 /* InfoPlist.strings */; };
+		BF2008861A33FC1D007A2034 /* StarsAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2008851A33FC1D007A2034 /* StarsAppTests.m */; };
+		BF20089D1A33FC8E007A2034 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF20088F1A33FC8E007A2034 /* Main.storyboard */; };
+		BF2008A61A33FD79007A2034 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2008A51A33FD79007A2034 /* User.m */; };
+		BF2008A91A33FDF8007A2034 /* Appointments.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2008A81A33FDF8007A2034 /* Appointments.m */; };
+		BF395F6D1A34F9A500757A60 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF395F6C1A34F9A500757A60 /* LoginViewController.m */; };
+		BF395F701A34F9F100757A60 /* AppointmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF395F6F1A34F9F100757A60 /* AppointmentViewController.m */; };
+		BF395F731A34FA2400757A60 /* NewApptViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF395F721A34FA2400757A60 /* NewApptViewViewController.m */; };
+		BF395F761A34FA5500757A60 /* UserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF395F751A34FA5500757A60 /* UserViewController.m */; };
+		BF395F791A34FA6D00757A60 /* MiscViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF395F781A34FA6D00757A60 /* MiscViewController.m */; };
+		BF395F7C1A34FA8900757A60 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF395F7B1A34FA8900757A60 /* DetailViewController.m */; };
+		BF54B8591A396EBF00E0C907 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF54B8581A396EBF00E0C907 /* MessageUI.framework */; };
+		BF7A4F0B1A36C70E00DD2B01 /* Tutor.m in Sources */ = {isa = PBXBuildFile; fileRef = BF7A4F0A1A36C70E00DD2B01 /* Tutor.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BF20087D1A33FC1D007A2034 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF2008461A33FC1C007A2034 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF20084D1A33FC1C007A2034;
+			remoteInfo = StarsApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BF16E86E1A367E3700594A10 /* Tutors.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Tutors.plist; sourceTree = "<group>"; };
+		BF16E8701A367E4800594A10 /* Courses.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Courses.plist; sourceTree = "<group>"; };
+		BF20084E1A33FC1C007A2034 /* StarsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StarsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF2008511A33FC1C007A2034 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BF2008531A33FC1C007A2034 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BF2008551A33FC1C007A2034 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BF2008571A33FC1C007A2034 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		BF20085B1A33FC1C007A2034 /* StarsApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StarsApp-Info.plist"; sourceTree = "<group>"; };
+		BF20085D1A33FC1C007A2034 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BF20085F1A33FC1C007A2034 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BF2008611A33FC1C007A2034 /* StarsApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StarsApp-Prefix.pch"; sourceTree = "<group>"; };
+		BF2008621A33FC1C007A2034 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BF2008631A33FC1C007A2034 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BF2008691A33FC1C007A2034 /* StarsApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = StarsApp.xcdatamodel; sourceTree = "<group>"; };
+		BF2008711A33FC1C007A2034 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BF2008771A33FC1D007A2034 /* StarsAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StarsAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF2008781A33FC1D007A2034 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		BF2008811A33FC1D007A2034 /* StarsAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StarsAppTests-Info.plist"; sourceTree = "<group>"; };
+		BF2008831A33FC1D007A2034 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BF2008851A33FC1D007A2034 /* StarsAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StarsAppTests.m; sourceTree = "<group>"; };
+		BF2008901A33FC8E007A2034 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ../../FIUStars/FIUStars/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BF2008A41A33FD79007A2034 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		BF2008A51A33FD79007A2034 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		BF2008A71A33FDF8007A2034 /* Appointments.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Appointments.h; sourceTree = "<group>"; };
+		BF2008A81A33FDF8007A2034 /* Appointments.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Appointments.m; sourceTree = "<group>"; };
+		BF395F6B1A34F9A500757A60 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		BF395F6C1A34F9A500757A60 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		BF395F6E1A34F9F100757A60 /* AppointmentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppointmentViewController.h; sourceTree = "<group>"; };
+		BF395F6F1A34F9F100757A60 /* AppointmentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppointmentViewController.m; sourceTree = "<group>"; };
+		BF395F711A34FA2400757A60 /* NewApptViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewApptViewViewController.h; sourceTree = "<group>"; };
+		BF395F721A34FA2400757A60 /* NewApptViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewApptViewViewController.m; sourceTree = "<group>"; };
+		BF395F741A34FA5500757A60 /* UserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserViewController.h; sourceTree = "<group>"; };
+		BF395F751A34FA5500757A60 /* UserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserViewController.m; sourceTree = "<group>"; };
+		BF395F771A34FA6D00757A60 /* MiscViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MiscViewController.h; sourceTree = "<group>"; };
+		BF395F781A34FA6D00757A60 /* MiscViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MiscViewController.m; sourceTree = "<group>"; };
+		BF395F7A1A34FA8900757A60 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		BF395F7B1A34FA8900757A60 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		BF54B8581A396EBF00E0C907 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		BF7A4F091A36C70E00DD2B01 /* Tutor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tutor.h; sourceTree = "<group>"; };
+		BF7A4F0A1A36C70E00DD2B01 /* Tutor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tutor.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF20084B1A33FC1C007A2034 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF54B8591A396EBF00E0C907 /* MessageUI.framework in Frameworks */,
+				BF2008541A33FC1C007A2034 /* CoreGraphics.framework in Frameworks */,
+				BF2008581A33FC1C007A2034 /* CoreData.framework in Frameworks */,
+				BF2008561A33FC1C007A2034 /* UIKit.framework in Frameworks */,
+				BF2008521A33FC1C007A2034 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF2008741A33FC1D007A2034 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF2008791A33FC1D007A2034 /* XCTest.framework in Frameworks */,
+				BF20087C1A33FC1D007A2034 /* CoreData.framework in Frameworks */,
+				BF20087B1A33FC1D007A2034 /* UIKit.framework in Frameworks */,
+				BF20087A1A33FC1D007A2034 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF2008451A33FC1C007A2034 = {
+			isa = PBXGroup;
+			children = (
+				BF2008591A33FC1C007A2034 /* StarsApp */,
+				BF20087F1A33FC1D007A2034 /* StarsAppTests */,
+				BF2008501A33FC1C007A2034 /* Frameworks */,
+				BF20084F1A33FC1C007A2034 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF20084F1A33FC1C007A2034 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF20084E1A33FC1C007A2034 /* StarsApp.app */,
+				BF2008771A33FC1D007A2034 /* StarsAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF2008501A33FC1C007A2034 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF54B8581A396EBF00E0C907 /* MessageUI.framework */,
+				BF2008511A33FC1C007A2034 /* Foundation.framework */,
+				BF2008531A33FC1C007A2034 /* CoreGraphics.framework */,
+				BF2008551A33FC1C007A2034 /* UIKit.framework */,
+				BF2008571A33FC1C007A2034 /* CoreData.framework */,
+				BF2008781A33FC1D007A2034 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF2008591A33FC1C007A2034 /* StarsApp */ = {
+			isa = PBXGroup;
+			children = (
+				BF2008621A33FC1C007A2034 /* AppDelegate.h */,
+				BF2008631A33FC1C007A2034 /* AppDelegate.m */,
+				BF20088F1A33FC8E007A2034 /* Main.storyboard */,
+				BF395F6B1A34F9A500757A60 /* LoginViewController.h */,
+				BF395F6C1A34F9A500757A60 /* LoginViewController.m */,
+				BF395F6E1A34F9F100757A60 /* AppointmentViewController.h */,
+				BF395F6F1A34F9F100757A60 /* AppointmentViewController.m */,
+				BF395F711A34FA2400757A60 /* NewApptViewViewController.h */,
+				BF395F721A34FA2400757A60 /* NewApptViewViewController.m */,
+				BF395F741A34FA5500757A60 /* UserViewController.h */,
+				BF395F751A34FA5500757A60 /* UserViewController.m */,
+				BF395F771A34FA6D00757A60 /* MiscViewController.h */,
+				BF395F781A34FA6D00757A60 /* MiscViewController.m */,
+				BF395F7A1A34FA8900757A60 /* DetailViewController.h */,
+				BF395F7B1A34FA8900757A60 /* DetailViewController.m */,
+				BF2008711A33FC1C007A2034 /* Images.xcassets */,
+				BF2008681A33FC1C007A2034 /* StarsApp.xcdatamodeld */,
+				BF2008A41A33FD79007A2034 /* User.h */,
+				BF2008A51A33FD79007A2034 /* User.m */,
+				BF2008A71A33FDF8007A2034 /* Appointments.h */,
+				BF2008A81A33FDF8007A2034 /* Appointments.m */,
+				BF7A4F091A36C70E00DD2B01 /* Tutor.h */,
+				BF7A4F0A1A36C70E00DD2B01 /* Tutor.m */,
+				BF20085A1A33FC1C007A2034 /* Supporting Files */,
+			);
+			path = StarsApp;
+			sourceTree = "<group>";
+		};
+		BF20085A1A33FC1C007A2034 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BF20085B1A33FC1C007A2034 /* StarsApp-Info.plist */,
+				BF20085C1A33FC1C007A2034 /* InfoPlist.strings */,
+				BF20085F1A33FC1C007A2034 /* main.m */,
+				BF2008611A33FC1C007A2034 /* StarsApp-Prefix.pch */,
+				BF16E86E1A367E3700594A10 /* Tutors.plist */,
+				BF16E8701A367E4800594A10 /* Courses.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BF20087F1A33FC1D007A2034 /* StarsAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				BF2008851A33FC1D007A2034 /* StarsAppTests.m */,
+				BF2008801A33FC1D007A2034 /* Supporting Files */,
+			);
+			path = StarsAppTests;
+			sourceTree = "<group>";
+		};
+		BF2008801A33FC1D007A2034 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BF2008811A33FC1D007A2034 /* StarsAppTests-Info.plist */,
+				BF2008821A33FC1D007A2034 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF20084D1A33FC1C007A2034 /* StarsApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF2008891A33FC1D007A2034 /* Build configuration list for PBXNativeTarget "StarsApp" */;
+			buildPhases = (
+				BF20084A1A33FC1C007A2034 /* Sources */,
+				BF20084B1A33FC1C007A2034 /* Frameworks */,
+				BF20084C1A33FC1C007A2034 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StarsApp;
+			productName = StarsApp;
+			productReference = BF20084E1A33FC1C007A2034 /* StarsApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BF2008761A33FC1D007A2034 /* StarsAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF20088C1A33FC1D007A2034 /* Build configuration list for PBXNativeTarget "StarsAppTests" */;
+			buildPhases = (
+				BF2008731A33FC1D007A2034 /* Sources */,
+				BF2008741A33FC1D007A2034 /* Frameworks */,
+				BF2008751A33FC1D007A2034 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF20087E1A33FC1D007A2034 /* PBXTargetDependency */,
+			);
+			name = StarsAppTests;
+			productName = StarsAppTests;
+			productReference = BF2008771A33FC1D007A2034 /* StarsAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF2008461A33FC1C007A2034 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = rgome117;
+				TargetAttributes = {
+					BF2008761A33FC1D007A2034 = {
+						TestTargetID = BF20084D1A33FC1C007A2034;
+					};
+				};
+			};
+			buildConfigurationList = BF2008491A33FC1C007A2034 /* Build configuration list for PBXProject "StarsApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF2008451A33FC1C007A2034;
+			productRefGroup = BF20084F1A33FC1C007A2034 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF20084D1A33FC1C007A2034 /* StarsApp */,
+				BF2008761A33FC1D007A2034 /* StarsAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF20084C1A33FC1C007A2034 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF16E8711A367E4800594A10 /* Courses.plist in Resources */,
+				BF20089D1A33FC8E007A2034 /* Main.storyboard in Resources */,
+				BF2008721A33FC1C007A2034 /* Images.xcassets in Resources */,
+				BF20085E1A33FC1C007A2034 /* InfoPlist.strings in Resources */,
+				BF16E86F1A367E3700594A10 /* Tutors.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF2008751A33FC1D007A2034 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF2008841A33FC1D007A2034 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF20084A1A33FC1C007A2034 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF7A4F0B1A36C70E00DD2B01 /* Tutor.m in Sources */,
+				BF395F761A34FA5500757A60 /* UserViewController.m in Sources */,
+				BF2008A61A33FD79007A2034 /* User.m in Sources */,
+				BF395F791A34FA6D00757A60 /* MiscViewController.m in Sources */,
+				BF2008641A33FC1C007A2034 /* AppDelegate.m in Sources */,
+				BF395F701A34F9F100757A60 /* AppointmentViewController.m in Sources */,
+				BF395F6D1A34F9A500757A60 /* LoginViewController.m in Sources */,
+				BF2008601A33FC1C007A2034 /* main.m in Sources */,
+				BF395F7C1A34FA8900757A60 /* DetailViewController.m in Sources */,
+				BF20086A1A33FC1C007A2034 /* StarsApp.xcdatamodeld in Sources */,
+				BF2008A91A33FDF8007A2034 /* Appointments.m in Sources */,
+				BF395F731A34FA2400757A60 /* NewApptViewViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF2008731A33FC1D007A2034 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF2008861A33FC1D007A2034 /* StarsAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BF20087E1A33FC1D007A2034 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF20084D1A33FC1C007A2034 /* StarsApp */;
+			targetProxy = BF20087D1A33FC1D007A2034 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BF20085C1A33FC1C007A2034 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF20085D1A33FC1C007A2034 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BF2008821A33FC1D007A2034 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF2008831A33FC1D007A2034 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BF20088F1A33FC8E007A2034 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF2008901A33FC8E007A2034 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF2008871A33FC1D007A2034 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		BF2008881A33FC1D007A2034 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF20088A1A33FC1D007A2034 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StarsApp/StarsApp-Prefix.pch";
+				INFOPLIST_FILE = "StarsApp/StarsApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BF20088B1A33FC1D007A2034 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StarsApp/StarsApp-Prefix.pch";
+				INFOPLIST_FILE = "StarsApp/StarsApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		BF20088D1A33FC1D007A2034 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/StarsApp.app/StarsApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StarsApp/StarsApp-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "StarsAppTests/StarsAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		BF20088E1A33FC1D007A2034 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/StarsApp.app/StarsApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StarsApp/StarsApp-Prefix.pch";
+				INFOPLIST_FILE = "StarsAppTests/StarsAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF2008491A33FC1C007A2034 /* Build configuration list for PBXProject "StarsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF2008871A33FC1D007A2034 /* Debug */,
+				BF2008881A33FC1D007A2034 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF2008891A33FC1D007A2034 /* Build configuration list for PBXNativeTarget "StarsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF20088A1A33FC1D007A2034 /* Debug */,
+				BF20088B1A33FC1D007A2034 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF20088C1A33FC1D007A2034 /* Build configuration list for PBXNativeTarget "StarsAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF20088D1A33FC1D007A2034 /* Debug */,
+				BF20088E1A33FC1D007A2034 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BF2008681A33FC1C007A2034 /* StarsApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BF2008691A33FC1C007A2034 /* StarsApp.xcdatamodel */,
+			);
+			currentVersion = BF2008691A33FC1C007A2034 /* StarsApp.xcdatamodel */;
+			path = StarsApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BF2008461A33FC1C007A2034 /* Project object */;
+}
